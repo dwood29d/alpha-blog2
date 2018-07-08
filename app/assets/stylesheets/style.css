@@ -1,0 +1,30 @@
+body {
+  font-style: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+header p {
+  text-align: center;
+}
+
+header img {
+  width: 80%;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 30px;
+}
