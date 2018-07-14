@@ -13,7 +13,9 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    # debugger
     @article = Article.new(article_params)
+    @article.user = User.first # Until we get authentication going
     if @article.save
       flash[:success] = "Article was successfully created" # handle this in views (application.html.erb)
       redirect_to article_path(@article)
